@@ -4,4 +4,4 @@
   when: ansible_distribution_major_version|int == 6
 
 - name: Ensure redis is installed.
-  yum: name=redis state=latest enablerepo=epel,remi
+  yum: name=redis state=latest enablerepo=epel
